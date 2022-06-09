@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html::-webkit-scrollbar {
@@ -33,7 +34,7 @@ html {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 4vw;
 }
 
 .point-down-emoji {
@@ -51,7 +52,7 @@ html {
 }
 
 .cards-container {
-    height: 600px;
+    height: 100vw;
     display: flex;
     flex-direction: row;
     min-height: 500px;
@@ -93,10 +94,12 @@ html {
     float: left;
 }
 
-
+.heading {
+    font-size: 2vw;
+}
 
 .paragraph {
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 .img2 {
